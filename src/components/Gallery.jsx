@@ -61,6 +61,7 @@ const handleSubmit = newQuery => {
       setHits([]);
       setQuery(newQuery);
       setPage(1);
+      setTotalPages(12);
       setErrorStatus(false);
       setErrorInfo('');
   };
